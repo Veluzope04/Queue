@@ -10,7 +10,7 @@ public class Queue {
     private int front;
 
 
-    public Queue(int size) {
+    private Queue(int size) {
         this.size = size;
         Queue = new int[size];
         rear = -1;
